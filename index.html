@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Skrypt</title>
+	</head>
+	<body>
+		<form action="http://localhost/index.php" method="get">
+			<label for="liczba1"
+				>Pierwsza liczba: <input type="number" name="liczba1" id="liczba1"
+			/></label>
+			<label for="liczba2"
+				>Druga liczba: <input type="number" name="liczba2" id="liczba2"
+			/></label>
+
+			<label for="dodawanie"
+				>+
+				<input type="radio" name="dzialanie" id="dodawanie" value="dodawanie"
+			/></label>
+			<label for="odejmowanie"
+				>-
+				<input
+					type="radio"
+					name="dzialanie"
+					id="odejmowanie"
+					value="odejmowanie"
+			/></label>
+			<label for="mnozenie"
+				>* <input type="radio" name="dzialanie" id="mnozenie" value="mnozenie"
+			/></label>
+			<label for="dzielenie"
+				>/
+				<input type="radio" name="dzialanie" id="dzielenie" value="dzielenie"
+			/></label>
+
+			<button type="submit">Oblicz</button>
+		</form>
+	</body>
+</html>
